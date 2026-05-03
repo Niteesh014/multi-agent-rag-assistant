@@ -1,0 +1,61 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.py[cod]
+
+# Virtual Environment
+venv/
+env/
+.venv/
+ENV/
+
+# Database & Vector Store
+chroma_db/
+local_chroma_db/
+*.pkl
+*.db
+*.sqlite
+
+# API Keys & Secrets (NEVER commit these!)
+.env
+.env.local
+.env.production
+secrets.toml
+*.key
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Logs
+*.log
+logs/
+
+# Model files (too large for GitHub)
+*.bin
+*.pt
+*.pth
+models/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# HuggingFace cache
+.cache/
