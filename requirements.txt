@@ -1,0 +1,26 @@
+# Core LLM & AI
+groq==0.13.0
+langchain==0.3.10
+langchain-community==0.3.10
+langchain-groq==0.2.1
+langchain-text-splitters==0.3.2
+langchain-huggingface==0.1.2
+langchain-chroma==0.1.4
+
+# Vector Database
+chromadb==0.5.20
+
+# Embeddings
+sentence-transformers==3.3.1
+
+# Web Search
+tavily-python==0.5.0
+
+# PDF Processing
+pypdf==5.1.0
+
+# UI
+streamlit==1.40.0
+
+# Utilities
+python-dotenv==1.0.1
